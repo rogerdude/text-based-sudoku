@@ -1,17 +1,18 @@
 # text-based-sudoku
-Sudoku game in python terminal.
-
-Usage:
-The user is prompted for the directory for the board file.
-Then, the user is prompted for their move.
-User's move can either be:
-Help: Input "H" or "h"
-Quit: Input "Q" or "q"
-Updating board: Input {row} {column} {value} without the brackets.
-Clearing position: Input {row} {column} {"C"} without the brackets.
-Until the game has been won, the user will be prompted repeatedly for their move.
+Sudoku game in python terminal.<br>
+<br>
+Usage:<br>
+The user is prompted for the directory for the board file.<br>
+Then, the user is prompted for their move.<br>
+User's move can either be:<br>
+Help: Input "H" or "h"<br>
+Quit: Input "Q" or "q"<br>
+Updating board: Input {row} {column} {value} without the brackets.<br>
+Clearing position: Input {row} {column} {"C"} without the brackets.<br>
+Until the game has been won, the user will be prompted repeatedly for their move.<br>
 
 Example:
+```
 Please insert the name of a board file: boards/board_one.txt
 685|13 | 47 0
 7  |   | 1  1
@@ -60,3 +61,4 @@ Please input your move: 0 5 8
 
 012 345 678
 Please input your move:
+```
