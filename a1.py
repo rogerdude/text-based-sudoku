@@ -4,15 +4,6 @@ Semester 2, 2022
 """
 from a1_support import *
 
-
-# Fill these in with your details
-__author__ = "Your Name"
-__email__ = "Your Email"
-__date__ = "14/07/2022"
-
-
-# Write your functions here
-
 def num_hours() -> float:
     """
     It gives the number of hours spent on the assignment
